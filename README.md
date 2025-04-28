@@ -25,8 +25,8 @@ Isi review meliputi:
 ## Data Pendukung
 
 Folder **Data Pendukung** berisi file hasil pengerjaan seperti:
-- Source code program Prolog
-- File dokumen tugas (.docx)
+- Source code program
+- File dokumen tugas
 
 ---
 
