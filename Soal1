@@ -1,0 +1,60 @@
+**Logika Proposisional**
+
+1. **Jika** daun menguning ∧ tanaman layu **maka** hama adalah kutu daun  
+   **P ∧ Q → H1**  
+   - P: daun menguning  
+   - Q: tanaman layu  
+   - H1: kutu daun
+
+2. **Jika** terdapat bercak hitam **maka** hama adalah jamur  
+   **R → H2**  
+   - R: bercak hitam  
+   - H2: jamur
+
+3. **Jika** daun berlubang **maka** hama adalah ulat grayak  
+   **S → H3**  
+   - S: daun berlubang  
+   - H3: ulat grayak
+
+4. **Jika** daun menguning ∧ bercak hitam **maka** hama adalah tungau  
+   **P ∧ R → H4**  
+   - P: daun menguning  
+   - R: bercak hitam  
+   - H4: tungau
+
+---
+
+### **Aturan (Rules)**
+
+- **IF** daun menguning **AND** tanaman layu **THEN** hama = kutu daun
+- **IF** terdapat bercak hitam **THEN** hama = jamur
+- **IF** daun berlubang **THEN** hama = ulat grayak
+- **IF** daun menguning **AND** bercak hitam **THEN** hama = tungau
+
+---
+
+### **Pseudocode**
+
+Input: gejala
+Output: jenis hama
+
+IF gejala == [daun menguning, tanaman layu]:
+    return "Kutu Daun"
+ELIF gejala == [bercak hitam]:
+    return "Jamur"
+ELIF gejala == [daun berlubang]:
+    return "Ulat Grayak"
+ELIF gejala == [daun menguning, bercak hitam]:
+    return "Tungau"
+ELSE:
+    return "Hama tidak teridentifikasi"
+```
+
+---
+
+### **Penjelasan Alur Inferensi**
+
+Program akan menerima input berupa daftar gejala dari tanaman.  
+Kemudian, program mencocokkan input tersebut dengan aturan logika yang sudah dibuat.  
+Jika ditemukan kecocokan, sistem langsung mengeluarkan output berupa jenis hama yang sesuai dengan gejala tersebut.  
+Jika tidak ada gejala yang cocok dengan aturan yang tersedia, maka program akan memberikan output "Hama tidak teridentifikasi".
