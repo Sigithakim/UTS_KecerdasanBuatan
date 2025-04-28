@@ -10,7 +10,7 @@ Repository ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) Mata Kuli
 ## Soal Nomor 1: Sistem Pakar Identifikasi Hama
 
 Tugas ini membuat sistem pakar berbasis logika proposisional untuk menentukan jenis hama berdasarkan gejala tanaman.  
-Disediakan logika proposisional, aturan (rules), pseudocode, program menggunakan Prolog, serta penjelasan alur inferensi.
+Disediakan logika proposisional, aturan (rules), pseudocode, serta penjelasan alur inferensi.
 
 ## Soal Nomor 2: Review Jurnal AI dalam Kesehatan Mental
 
